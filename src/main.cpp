@@ -6,7 +6,7 @@
 #include "../include/all.h"
 int main(){
 
-    Solution s;
+    SingleElement s;
 
     vector<int> nums {1,1,2,2,3,3,4};
     cout<<s.singleNonDuplicate(nums);

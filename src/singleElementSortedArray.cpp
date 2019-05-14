@@ -4,7 +4,7 @@
 
 #include "../include/all.h"
 
-class Solution {
+class SingleElement {
 public:
     int singleNonDuplicate(vector<int>& nums) {
         int n = nums.size();
