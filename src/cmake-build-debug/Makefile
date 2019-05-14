@@ -123,6 +123,33 @@ op/fast:
 	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/build
 .PHONY : op/fast
 
+largestRowTreeRow.o: largestRowTreeRow.cpp.o
+
+.PHONY : largestRowTreeRow.o
+
+# target to build an object file
+largestRowTreeRow.cpp.o:
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/largestRowTreeRow.cpp.o
+.PHONY : largestRowTreeRow.cpp.o
+
+largestRowTreeRow.i: largestRowTreeRow.cpp.i
+
+.PHONY : largestRowTreeRow.i
+
+# target to preprocess a source file
+largestRowTreeRow.cpp.i:
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/largestRowTreeRow.cpp.i
+.PHONY : largestRowTreeRow.cpp.i
+
+largestRowTreeRow.s: largestRowTreeRow.cpp.s
+
+.PHONY : largestRowTreeRow.s
+
+# target to generate assembly for a file
+largestRowTreeRow.cpp.s:
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/largestRowTreeRow.cpp.s
+.PHONY : largestRowTreeRow.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... op"
 	@echo "... edit_cache"
+	@echo "... largestRowTreeRow.o"
+	@echo "... largestRowTreeRow.i"
+	@echo "... largestRowTreeRow.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
