@@ -9,3 +9,4 @@
 
 #include "../src/singleElementSortedArray.cpp"
 #include "../src/largestRowTreeRow.cpp"
+#include "../src/validateStackSeq.cpp"
