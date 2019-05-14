@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/akshay/Documents/Target_CPP/include/all.h
+iostream
+-
+bits/stdc++.h
+-
+vector
+-
+
+/home/akshay/Documents/Target_CPP/include/main.h
+../src/singleElementSortedArray.cpp
+/home/akshay/Documents/Target_CPP/src/singleElementSortedArray.cpp
+
+/home/akshay/Documents/Target_CPP/src/main.cpp
+../include/main.h
+/home/akshay/Documents/Target_CPP/include/main.h
+../include/all.h
+/home/akshay/Documents/Target_CPP/include/all.h
+
+/home/akshay/Documents/Target_CPP/src/singleElementSortedArray.cpp
+../include/all.h
+/home/akshay/Documents/Target_CPP/include/all.h
+
