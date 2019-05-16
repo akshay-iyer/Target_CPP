@@ -5,3 +5,7 @@
 540
 
 946
+ ```python
+ python main.py
+ ```
+
