@@ -177,6 +177,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+middleOfLL.o: middleOfLL.cpp.o
+
+.PHONY : middleOfLL.o
+
+# target to build an object file
+middleOfLL.cpp.o:
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/middleOfLL.cpp.o
+.PHONY : middleOfLL.cpp.o
+
+middleOfLL.i: middleOfLL.cpp.i
+
+.PHONY : middleOfLL.i
+
+# target to preprocess a source file
+middleOfLL.cpp.i:
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/middleOfLL.cpp.i
+.PHONY : middleOfLL.cpp.i
+
+middleOfLL.s: middleOfLL.cpp.s
+
+.PHONY : middleOfLL.s
+
+# target to generate assembly for a file
+middleOfLL.cpp.s:
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/middleOfLL.cpp.s
+.PHONY : middleOfLL.cpp.s
+
 numberOfLines.o: numberOfLines.cpp.o
 
 .PHONY : numberOfLines.o
@@ -273,6 +300,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... middleOfLL.o"
+	@echo "... middleOfLL.i"
+	@echo "... middleOfLL.s"
 	@echo "... numberOfLines.o"
 	@echo "... numberOfLines.i"
 	@echo "... numberOfLines.s"

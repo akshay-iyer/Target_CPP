@@ -61,14 +61,34 @@ int main(){
 //    vector<int> popped {4,5,3,2,1};
 //    cout<<v.validateStackSeq(pushed, popped);
 
-    Lines lines;
-    string s = "abcdefghijklmnopqrstuvwxyz";
-    vector<int> widths;
-    for (auto c : s)
-        widths.emplace_back(10);
-    vector<int> result = lines.numberOfLines(widths, s);
-    cout<<result[0]<<" "<<result[1];
 
+    // We are to write the letters of a given string S, from left to right into lines. Each line has maximum
+    // width 100 units, and if writing a letter would cause the width of the line to exceed 100 units,
+    // it is written on the next line. We are given an array widths, an array where widths[0] is the width of 'a',
+    // widths[1] is the width of 'b', ..., and widths[25] is the width of 'z'.
+    // Now answer two questions: how many lines have at least one character from S, and what is the width used by the last such line? Return your answer as an integer list of length 2.
+
+//    Lines lines;
+//    string s = "abcdefghijklmnopqrstuvwxyz";
+//    vector<int> widths;
+//    for (auto c : s)
+//        widths.emplace_back(10);
+//    vector<int> result = lines.numberOfLines(widths, s);
+//    cout<<result[0]<<" "<<result[1];
+
+
+    // Given a non-empty, singly linked list with head node head, return a middle node of linked list.
+    //If there are two middle nodes, return the second middle node.
+
+    ListNode* ln = new ListNode(1);
+    ln->next = new ListNode(2);
+    ln->next->next = new ListNode(3);
+    ln->next->next->next = new ListNode(4);
+    ln->next->next->next->next = new ListNode(5);
+    ln->next->next->next->next->next = new ListNode(6);
+
+    middleLL ll;
+    cout<<ll.middleNode(ln)->val;
 
     return 0;
 }
