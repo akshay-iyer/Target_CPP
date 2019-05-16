@@ -17,6 +17,16 @@ vector
 /home/akshay/Documents/Target_CPP/include/main.h
 ../src/singleElementSortedArray.cpp
 /home/akshay/Documents/Target_CPP/src/singleElementSortedArray.cpp
+../src/largestRowTreeRow.cpp
+/home/akshay/Documents/Target_CPP/src/largestRowTreeRow.cpp
+../src/validateStackSeq.cpp
+/home/akshay/Documents/Target_CPP/src/validateStackSeq.cpp
+../src/numberOfLines.cpp
+/home/akshay/Documents/Target_CPP/src/numberOfLines.cpp
+
+/home/akshay/Documents/Target_CPP/src/largestRowTreeRow.cpp
+../include/all.h
+/home/akshay/Documents/Target_CPP/include/all.h
 
 /home/akshay/Documents/Target_CPP/src/main.cpp
 ../include/main.h
@@ -24,7 +34,15 @@ vector
 ../include/all.h
 /home/akshay/Documents/Target_CPP/include/all.h
 
+/home/akshay/Documents/Target_CPP/src/numberOfLines.cpp
+../include/all.h
+/home/akshay/Documents/Target_CPP/include/all.h
+
 /home/akshay/Documents/Target_CPP/src/singleElementSortedArray.cpp
+../include/all.h
+/home/akshay/Documents/Target_CPP/include/all.h
+
+/home/akshay/Documents/Target_CPP/src/validateStackSeq.cpp
 ../include/all.h
 /home/akshay/Documents/Target_CPP/include/all.h
 

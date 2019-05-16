@@ -6,7 +6,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/akshay/Documents/Target_CPP/src/largestRowTreeRow.cpp" "/home/akshay/Documents/Target_CPP/src/cmake-build-debug/CMakeFiles/op.dir/largestRowTreeRow.cpp.o"
   "/home/akshay/Documents/Target_CPP/src/main.cpp" "/home/akshay/Documents/Target_CPP/src/cmake-build-debug/CMakeFiles/op.dir/main.cpp.o"
+  "/home/akshay/Documents/Target_CPP/src/numberOfLines.cpp" "/home/akshay/Documents/Target_CPP/src/cmake-build-debug/CMakeFiles/op.dir/numberOfLines.cpp.o"
   "/home/akshay/Documents/Target_CPP/src/singleElementSortedArray.cpp" "/home/akshay/Documents/Target_CPP/src/cmake-build-debug/CMakeFiles/op.dir/singleElementSortedArray.cpp.o"
+  "/home/akshay/Documents/Target_CPP/src/validateStackSeq.cpp" "/home/akshay/Documents/Target_CPP/src/cmake-build-debug/CMakeFiles/op.dir/validateStackSeq.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

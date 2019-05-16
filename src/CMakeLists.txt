@@ -18,7 +18,7 @@ include_directories(
         ${PROJECT_SOURCE_DIR}/include
 )
 
-add_executable(op main.cpp singleElementSortedArray.cpp largestRowTreeRow.cpp)
+add_executable(op main.cpp singleElementSortedArray.cpp largestRowTreeRow.cpp validateStackSeq.cpp numberOfLines.cpp)
 target_link_libraries(op
         ${OpenCV_LIBS}
         stdc++fs)

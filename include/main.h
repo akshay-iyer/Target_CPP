@@ -10,3 +10,4 @@
 #include "../src/singleElementSortedArray.cpp"
 #include "../src/largestRowTreeRow.cpp"
 #include "../src/validateStackSeq.cpp"
+#include "../src/numberOfLines.cpp"

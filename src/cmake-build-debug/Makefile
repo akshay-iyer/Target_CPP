@@ -177,6 +177,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+numberOfLines.o: numberOfLines.cpp.o
+
+.PHONY : numberOfLines.o
+
+# target to build an object file
+numberOfLines.cpp.o:
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/numberOfLines.cpp.o
+.PHONY : numberOfLines.cpp.o
+
+numberOfLines.i: numberOfLines.cpp.i
+
+.PHONY : numberOfLines.i
+
+# target to preprocess a source file
+numberOfLines.cpp.i:
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/numberOfLines.cpp.i
+.PHONY : numberOfLines.cpp.i
+
+numberOfLines.s: numberOfLines.cpp.s
+
+.PHONY : numberOfLines.s
+
+# target to generate assembly for a file
+numberOfLines.cpp.s:
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/numberOfLines.cpp.s
+.PHONY : numberOfLines.cpp.s
+
 singleElementSortedArray.o: singleElementSortedArray.cpp.o
 
 .PHONY : singleElementSortedArray.o
@@ -204,6 +231,33 @@ singleElementSortedArray.cpp.s:
 	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/singleElementSortedArray.cpp.s
 .PHONY : singleElementSortedArray.cpp.s
 
+validateStackSeq.o: validateStackSeq.cpp.o
+
+.PHONY : validateStackSeq.o
+
+# target to build an object file
+validateStackSeq.cpp.o:
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/validateStackSeq.cpp.o
+.PHONY : validateStackSeq.cpp.o
+
+validateStackSeq.i: validateStackSeq.cpp.i
+
+.PHONY : validateStackSeq.i
+
+# target to preprocess a source file
+validateStackSeq.cpp.i:
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/validateStackSeq.cpp.i
+.PHONY : validateStackSeq.cpp.i
+
+validateStackSeq.s: validateStackSeq.cpp.s
+
+.PHONY : validateStackSeq.s
+
+# target to generate assembly for a file
+validateStackSeq.cpp.s:
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/validateStackSeq.cpp.s
+.PHONY : validateStackSeq.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,9 +273,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... numberOfLines.o"
+	@echo "... numberOfLines.i"
+	@echo "... numberOfLines.s"
 	@echo "... singleElementSortedArray.o"
 	@echo "... singleElementSortedArray.i"
 	@echo "... singleElementSortedArray.s"
+	@echo "... validateStackSeq.o"
+	@echo "... validateStackSeq.i"
+	@echo "... validateStackSeq.s"
 .PHONY : help
 
 

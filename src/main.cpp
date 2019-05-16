@@ -56,9 +56,19 @@ int main(){
     //    Output: false
     //    Explanation: 1 cannot be popped before 2.
 
-    validateStack v;
-    vector<int> pushed {1,2,3,4,5};
-    vector<int> popped {4,5,3,2,1};
-    cout<<v.validateStackSeq(pushed, popped);
+//    validateStack v;
+//    vector<int> pushed {1,2,3,4,5};
+//    vector<int> popped {4,5,3,2,1};
+//    cout<<v.validateStackSeq(pushed, popped);
+
+    Lines lines;
+    string s = "abcdefghijklmnopqrstuvwxyz";
+    vector<int> widths;
+    for (auto c : s)
+        widths.emplace_back(10);
+    vector<int> result = lines.numberOfLines(widths, s);
+    cout<<result[0]<<" "<<result[1];
+
+
     return 0;
 }
