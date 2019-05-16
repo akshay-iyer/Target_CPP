@@ -23,6 +23,8 @@ vector
 /home/akshay/Documents/Target_CPP/src/validateStackSeq.cpp
 ../src/numberOfLines.cpp
 /home/akshay/Documents/Target_CPP/src/numberOfLines.cpp
+../src/middleOfLL.cpp
+/home/akshay/Documents/Target_CPP/src/middleOfLL.cpp
 
 /home/akshay/Documents/Target_CPP/src/largestRowTreeRow.cpp
 ../include/all.h
@@ -31,6 +33,10 @@ vector
 /home/akshay/Documents/Target_CPP/src/main.cpp
 ../include/main.h
 /home/akshay/Documents/Target_CPP/include/main.h
+../include/all.h
+/home/akshay/Documents/Target_CPP/include/all.h
+
+/home/akshay/Documents/Target_CPP/src/middleOfLL.cpp
 ../include/all.h
 /home/akshay/Documents/Target_CPP/include/all.h
 
