@@ -123,6 +123,33 @@ op/fast:
 	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/build
 .PHONY : op/fast
 
+jewelInStones.o: jewelInStones.cpp.o
+
+.PHONY : jewelInStones.o
+
+# target to build an object file
+jewelInStones.cpp.o:
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/jewelInStones.cpp.o
+.PHONY : jewelInStones.cpp.o
+
+jewelInStones.i: jewelInStones.cpp.i
+
+.PHONY : jewelInStones.i
+
+# target to preprocess a source file
+jewelInStones.cpp.i:
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/jewelInStones.cpp.i
+.PHONY : jewelInStones.cpp.i
+
+jewelInStones.s: jewelInStones.cpp.s
+
+.PHONY : jewelInStones.s
+
+# target to generate assembly for a file
+jewelInStones.cpp.s:
+	$(MAKE) -f CMakeFiles/op.dir/build.make CMakeFiles/op.dir/jewelInStones.cpp.s
+.PHONY : jewelInStones.cpp.s
+
 largestRowTreeRow.o: largestRowTreeRow.cpp.o
 
 .PHONY : largestRowTreeRow.o
@@ -294,6 +321,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... op"
 	@echo "... edit_cache"
+	@echo "... jewelInStones.o"
+	@echo "... jewelInStones.i"
+	@echo "... jewelInStones.s"
 	@echo "... largestRowTreeRow.o"
 	@echo "... largestRowTreeRow.i"
 	@echo "... largestRowTreeRow.s"

@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/op.dir/validateStackSeq.cpp.o"
   "CMakeFiles/op.dir/numberOfLines.cpp.o"
   "CMakeFiles/op.dir/middleOfLL.cpp.o"
+  "CMakeFiles/op.dir/jewelInStones.cpp.o"
   "op.pdb"
   "op"
 )

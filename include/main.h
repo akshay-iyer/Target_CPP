@@ -12,3 +12,4 @@
 #include "../src/validateStackSeq.cpp"
 #include "../src/numberOfLines.cpp"
 #include "../src/middleOfLL.cpp"
+#include "../src/jewelInStones.cpp"

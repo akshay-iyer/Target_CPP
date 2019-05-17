@@ -92,5 +92,16 @@ int main(){
 //    middleLL ll;
 //    cout<<ll.middleNode(ln)->val;
 //************************************************************************
+
+    //Q. 771
+    //You're given strings J representing the types of stones that are jewels, and S representing the stones
+    // you have.  Each character in S is a type of stone you have.  You want to know how many of the stones
+    // you have are also jewels.
+    //Input: J = "aA", S = "aAAbbbb"
+    //Output: 3
+    Jewel j;
+    string J = "aA";
+    string S = "aAAbbbb";
+    cout<<j.numJewelsInStones(J,S);
     return 0;
 }
